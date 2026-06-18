@@ -1,0 +1,26 @@
+# Core data
+pandas>=2.0
+numpy>=1.26
+
+# Classical NLP
+scikit-learn>=1.4
+nltk>=3.8
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+wordcloud>=1.9
+
+# Deep learning
+tensorflow>=2.16
+
+# Dashboard
+streamlit>=1.30
+plotly>=5.18
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.29
+
+# Model persistence
+joblib>=1.3
