@@ -1,0 +1,12 @@
+{
+  "LogisticRegression": {
+    "accuracy": 0.7704,
+    "macro_f1": 0.7233,
+    "weighted_f1": 0.7761
+  },
+  "ComplementNB": {
+    "accuracy": 0.7734,
+    "macro_f1": 0.686,
+    "weighted_f1": 0.7603
+  }
+}

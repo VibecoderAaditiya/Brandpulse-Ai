@@ -1,0 +1,136 @@
+{
+  "test_size": 2922,
+  "class_distribution": {
+    "negative": 1835,
+    "neutral": 615,
+    "positive": 472
+  },
+  "models": {
+    "LogisticRegression": {
+      "accuracy": 0.7704,
+      "macro_f1": 0.7233,
+      "weighted_f1": 0.7761,
+      "per_class": {
+        "negative": {
+          "precision": 0.8848,
+          "recall": 0.8158,
+          "f1": 0.8489,
+          "support": 1835
+        },
+        "neutral": {
+          "precision": 0.5523,
+          "recall": 0.6699,
+          "f1": 0.6054,
+          "support": 615
+        },
+        "positive": {
+          "precision": 0.7066,
+          "recall": 0.7246,
+          "f1": 0.7155,
+          "support": 472
+        }
+      },
+      "confusion_matrix": [
+        [
+          1497,
+          254,
+          84
+        ],
+        [
+          145,
+          412,
+          58
+        ],
+        [
+          50,
+          80,
+          342
+        ]
+      ]
+    },
+    "ComplementNB": {
+      "accuracy": 0.7734,
+      "macro_f1": 0.686,
+      "weighted_f1": 0.7603,
+      "per_class": {
+        "negative": {
+          "precision": 0.8165,
+          "recall": 0.9166,
+          "f1": 0.8637,
+          "support": 1835
+        },
+        "neutral": {
+          "precision": 0.6429,
+          "recall": 0.4244,
+          "f1": 0.5113,
+          "support": 615
+        },
+        "positive": {
+          "precision": 0.6952,
+          "recall": 0.6716,
+          "f1": 0.6832,
+          "support": 472
+        }
+      },
+      "confusion_matrix": [
+        [
+          1682,
+          91,
+          62
+        ],
+        [
+          277,
+          261,
+          77
+        ],
+        [
+          101,
+          54,
+          317
+        ]
+      ]
+    },
+    "BiLSTM": {
+      "accuracy": 0.7741,
+      "macro_f1": 0.7153,
+      "weighted_f1": 0.7768,
+      "per_class": {
+        "negative": {
+          "precision": 0.8908,
+          "recall": 0.8316,
+          "f1": 0.8602,
+          "support": 1835
+        },
+        "neutral": {
+          "precision": 0.6147,
+          "recall": 0.5707,
+          "f1": 0.5919,
+          "support": 615
+        },
+        "positive": {
+          "precision": 0.6034,
+          "recall": 0.8157,
+          "f1": 0.6937,
+          "support": 472
+        }
+      },
+      "confusion_matrix": [
+        [
+          1526,
+          179,
+          130
+        ],
+        [
+          141,
+          351,
+          123
+        ],
+        [
+          46,
+          41,
+          385
+        ]
+      ]
+    }
+  }
+}
