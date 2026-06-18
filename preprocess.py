@@ -32,6 +32,8 @@ nltk.download("stopwords")
 nltk.download("wordnet")
 nltk.download("omw-1.4")
 nltk.download("punkt_tab")
+nltk.download("averaged_perceptron_tagger")
+nltk.download("averaged_perceptron_tagger_eng")
 
 from nltk.corpus import stopwords, wordnet
 from nltk.stem import WordNetLemmatizer
