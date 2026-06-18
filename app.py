@@ -43,7 +43,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # Make src/ importable regardless of where streamlit is launched from
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT)
 
 from preprocess import clean_tweet, LABELS, ID2LABEL
