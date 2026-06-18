@@ -46,8 +46,7 @@ import streamlit as st
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 
-from src.preprocess import clean_tweet, LABELS, ID2LABEL  # noqa: E402
-
+from preprocess import clean_tweet, LABELS, ID2LABEL
 import joblib  # noqa: E402
 
 MODELS = os.path.join(ROOT, "models")
