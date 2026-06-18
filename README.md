@@ -41,6 +41,8 @@ python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 python -c "import nltk; [nltk.download(p) for p in ['stopwords','wordnet','omw-1.4','punkt','punkt_tab','averaged_perceptron_tagger','averaged_perceptron_tagger_eng']]"
 ```
+## Live Demo:
+https://brandpulse-ai-aadi.streamlit.app/
 
 ## Reproduce
 ```bash
