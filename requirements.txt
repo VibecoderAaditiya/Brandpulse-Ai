@@ -12,7 +12,7 @@ seaborn>=0.13
 wordcloud>=1.9
 
 # Deep learning
-tensorflow==2.16.1
+tensorflow-cpu==2.16.1
 
 # Dashboard
 streamlit>=1.30
