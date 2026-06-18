@@ -26,6 +26,11 @@ Public API:
 import re
 import html
 from functools import lru_cache
+import nltk
+
+nltk.download("stopwords")
+nltk.download("wordnet")
+nltk.download("omw-1.4")
 
 from nltk.corpus import stopwords, wordnet
 from nltk.stem import WordNetLemmatizer
